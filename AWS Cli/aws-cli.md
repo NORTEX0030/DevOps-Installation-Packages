@@ -25,12 +25,13 @@ sudo apt install unzip -y
 ```bash
 unzip awscliv2.zip
 ```
+
 ✅ Step 3: Install AWS CLI
 ```bash
 sudo ./aws/install
-
+```
     📌 If upgrading, use:
-
+```bash
     sudo ./aws/install --update
 ```
 📦 RHEL / CentOS
