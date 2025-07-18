@@ -17,7 +17,8 @@ sudo ./aws/install
 
 Imp: install unzip
 ```bash
-sudo install unzip
+sudo apt update
+sudo apt install unzip -y
 ```
 
 ✅ Step 2: Unzip the Installer
