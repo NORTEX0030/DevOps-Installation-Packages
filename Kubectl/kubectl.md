@@ -9,17 +9,20 @@
 ### ✅ Step 1: Download the Latest kubectl Binary
 
 ```bash
-curl -LO "https://dl.k8s.io/release/$(curl -sL https://dl.k8s.io/
-release/stable.txt)/bin/linux/amd64/kubectl"
+curl -LO "https://dl.k8s.io/release/$(curl -sL https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+chmod +x kubectl
+sudo mv kubectl /usr/local/bin/
+
 
 ```
 ✅ Step 2: Make the Binary Executable
 ```bash
 chmod +x kubectl
 ```
-✅ Step 3: Move to a Directory in Your PATH
+✅ Step 3: Then confirm:
 ```bash
-sudo mv kubectl /usr/local/bin/
+kubectl version --client
+
 ```
 ---
 📦 RHEL / CentOS
